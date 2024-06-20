@@ -131,7 +131,7 @@ if 'description' in tickets.columns:
     
     # Define stopwords and add additional words to exclude
     stopwords = set(STOPWORDS)
-    additional_stopwords = {'fenergo','regarded','confidential','ms','the', 'in', 'to', 'this', 'you', 'and', 'by', 'of', 'be', 'from', 'X','destroy','error','become',}
+    additional_stopwords = {'regarded','confidential','ms','the', 'in', 'to', 'this', 'you', 'and', 'by', 'of', 'be', 'from', 'X','destroy','error','become',}
     stopwords.update(additional_stopwords)
     
     # Generate the word cloud
