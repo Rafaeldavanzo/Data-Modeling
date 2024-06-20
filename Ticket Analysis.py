@@ -17,7 +17,7 @@ def remove_personal_names(text):
     return cleaned_text
 
 # Step 1: Read the CSV file with robust error handling
-file_path = 'C:/Users/rgarcia/Documents/ticket_exports_20_04_24_TO_20_06_24.csv'
+file_path = 'C:/Users/XXXXXXX/Documents/ticket_exports_20_04_24_TO_20_06_24.csv'
 try:
     tickets = pd.read_csv(file_path, delimiter=',', quotechar='"', escapechar='\\', on_bad_lines='skip', engine='python')
 except pd.errors.ParserError as e:
